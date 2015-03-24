@@ -1,6 +1,6 @@
 {
   "name": "grunt-sassify",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "CSS -> SCSS",
   "files": [
     "tasks"
