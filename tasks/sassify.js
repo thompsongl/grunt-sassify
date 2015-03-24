@@ -18,7 +18,7 @@ module.exports = function(grunt) {
       dest: './scss/'
     });
 
-    var dependencies = require('../package.json').dependencies;
+    var dependencies = grunt.file.readJSON('package.json').dependencies;
     var modules = [];
     for (var key in dependencies) {
       var component = key.match(options.regex);
