@@ -7,8 +7,8 @@ CSS -> SCSS
 ```
 sassify: {
   options: {
-    regex: /^pfx+(\-component|\-base|\-utility|\-theme)/i,
-    prefix: 'pfx-',
+    regex: /^pfx+(\-component|\-base|\-utility|\-theme)/i, // Required, for now
+    prefix: 'pfx-', // Required, for now
     dest: './scss/'
   }
 }
